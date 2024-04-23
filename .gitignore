@@ -1,4 +1,4 @@
-/target/
+**/target/
 # Uncomment the next line if this is a library project
 # Cargo.lock
 .vscode/
