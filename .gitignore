@@ -1,0 +1,12 @@
+/target/
+# Uncomment the next line if this is a library project
+# Cargo.lock
+.vscode/
+.DS_Store
+.env
+/build/
+/logs/
+/temp/
+/target/doc/
+/.cargo/
+**/**/*.d
