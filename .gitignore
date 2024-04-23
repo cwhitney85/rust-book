@@ -7,6 +7,5 @@
 /build/
 /logs/
 /temp/
-/target/doc/
 /.cargo/
 **/**/*.d
