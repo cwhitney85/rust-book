@@ -1,16 +1,16 @@
 fn main() {
     let my_string = String::from("hello world");
 
-    let word = first_word(&my_string);
-    let word = first_word(&my_string[..]);
+    // let word = first_word(&my_string);
+    // let word = first_word(&my_string[..]);
     let word = first_word(&my_string[..6]);
 
     println!("The first word is {}", word);
 
     let my_string_literal = "hello world";
 
-    let word = first_word(&my_string_literal[..6]);
-    let word = first_word(&my_string_literal[..]);
+    // let word = first_word(&my_string_literal[..6]);
+    // let word = first_word(&my_string_literal[..]);
     let word = first_word(my_string_literal);
 
     println!("The first word of my_string_literal is {}", word);
